@@ -13,7 +13,7 @@
   "dock_icon": {
     "type": "circle",
     "background_color": "#8ec07c",
-    "foreground_color": "#282828",
+    "foreground_color": "#8ec07c",
     "border_color": "#689d6a"
   }
 }
