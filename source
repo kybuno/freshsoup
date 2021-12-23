@@ -1,0 +1,108 @@
+/****************************************************************
+ *  General styles which apply to all SN clients
+ *  Source: https://docs.standardnotes.org/extensions/themes/#creating-a-theme
+****************************************************************/
+:root {
+  --primary-bg-color: #282828;
+  --secondary-bg-color: #3c3836;
+  --editor-bg-color: #584945;
+  --border-color: #1d2021;
+  --ui-text-color: #a89984;
+  --sn-stylekit-info-color: #83a598;
+  --sn-stylekit-info-contrast-color: var(--secondary-bg-color);
+  --sn-stylekit-neutral-color: var(--ui-text-color);
+  --sn-stylekit-neutral-contrast-color: var(--secondary-bg-color);
+  --sn-stylekit-success-color: #b8bb26;
+  --sn-stylekit-success-contrast-color: var(--secondary-bg-color);
+  --sn-stylekit-warning-color: #fabd2f;
+  --sn-stylekit-warning-contrast-color: var(--secondary-bg-color);
+  --sn-stylekit-danger-color: #d3869b;
+  --sn-stylekit-danger-contrast-color: var(--secondary-bg-color);
+  --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--ui-text-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-shadow-color: #1d2021;
+  --sn-stylekit-background-color: var(--editor-bg-color);
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-background-color: var(--secondary-bg-color);
+  --sn-stylekit-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: var(--secondary-bg-color);
+  --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: var(--editor-bg-color);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-paragraph-text-color: var(--ui-text-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-monospace-font: "Fira Mono", "Fantasque Sans Mono", "Fira Code", "Ubuntu Mono", courier, monospace;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, "Fira Sans",
+    "Roboto", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+  --sn-stylekit-general-border-radius: 4px;
+}
+
+/****************************************************************
+ *  Note editor styles
+****************************************************************/
+#editor-title-bar {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.sn-component .sk-menu-panel .sk-menu-panel-row:not(.selected):hover {
+  background-color: #282828 !important;
+}
+
+/****************************************************************
+ *  Tags column styles
+****************************************************************/
+.sn-component .sk-button.sk-secondary-contrast::before {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.sn-component .sk-button.sk-secondary-contrast::after {
+  color: var(--secondary-bg-color) !important;
+}
+
+/****************************************************************
+ *  #notes-column styles
+****************************************************************/
+#notes-column #notes-title-bar,
+.notes #notes-title-bar {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+#search-bar {
+  border: 1px solid var(--sn-stylekit-contrast-border-color);
+  background-color: var(--editor-bg-color) !important;
+}
+
+#notes-column .note:not(.selected):hover,
+.notes .note:not(.selected):hover {
+  background-color: #282828 !important;
+}
+
+/****************************************************************
+ *  General Styles
+****************************************************************/
+#select {
+  margin: 5px;
+  color: var(--sn-stylekit-foreground-color);
+  background-color: #3c3836;
+  line-height: 1.3;
+  border: 1px solid #1d2021;
+  border-radius: 4px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+pre {
+  overflow: auto;
+}
+
+/*# sourceMappingURL=dist.css.map */
