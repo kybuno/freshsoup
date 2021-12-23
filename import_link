@@ -12,8 +12,8 @@
   "thumbnail_url": "https://raw.githubusercontent.com/ceiphr/sn-overcast-theme/master/overcast.png",
   "dock_icon": {
     "type": "circle",
-    "background_color": "#3c3836",
+    "background_color": "#282828",
     "foreground_color": "#282828",
-    "border_color": "#3c3836"
+    "border_color": "#689d6a"
   }
 }
