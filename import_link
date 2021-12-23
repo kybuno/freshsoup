@@ -1,0 +1,19 @@
+{
+  "identifier": "com.ceiphr.overcast",
+  "name": "Soup",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0",
+  "description": "a lalala",
+  "url": "https://cdn.jsdelivr.net/gh/ceiphr/sn-overcast-theme@1.2.2/dist/dist.css",
+  "download_url": "https://codeload.github.com/ceiphr/sn-overcast-theme/zip/1.2.2",
+	"marketing_url": "https://github.com/ceiphr/sn-overcast-theme",
+  "latest_url": "https://changelog.ceiphr.com/p/wMLniolIii",
+  "thumbnail_url": "https://raw.githubusercontent.com/ceiphr/sn-overcast-theme/master/overcast.png",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#3c3836",
+    "foreground_color": "#282828",
+    "border_color": "#3c3836"
+  }
+}
